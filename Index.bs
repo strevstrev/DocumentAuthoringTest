@@ -29,10 +29,6 @@ Abstract: None
 		"title": "DASH-IF registry of DRM System IDs.",
 		"publisher": "DASH Industry Forum"
 	},
-	"CENC": {
-		"title": "ISO/IEC 23001-7:2016, Third Edition, Information technology - MPEG systems technologies - Part 7: Common encryption in ISO base media file format files.",
-		"publisher": "ISO/IEC"
-	},
 	"RFC6030": {
 		"title": "RFC 6030, Portable Symmetric Key Container (PSKC), October 2010.",
 		"publisher": "IETF"
@@ -46,16 +42,6 @@ Abstract: None
 		"href": "https://dashif.org/guidelines/",
 		"title": "CPIX XML Schema",
 		"publisher": "DASH Industry Forum"
-	},
-	"XML-DSIG": {
-		"href": "https://www.w3.org/TR/xmldsig-core/",
-		"title": "XML Signature Syntax and Processing (Second edition).",
-		"publisher": "W3C"
-	},
-	"XML-ENC": {
-		"href": "http://www.w3.org/TR/xmlenc-core/",
-		"title": "XML Encryption Syntax and Processing.",
-		"publisher": "W3C"
 	}
 }
 </pre>
@@ -1023,7 +1009,7 @@ A CPIX document can contain content protection information for multiple crypto-p
 
 Key rotation may be supported in complex workflows, with one entity requesting [=DRM Signaling=] for multiple crypto periods, and another entity providing the requested information (keys, DRM system-specific information for the crypto period, etc).
 
-Content encrypted using key rotation may also have periods in the clear that are not encrypted. In this case, there is no [=Content Key=] for these periods. A CPIX document will carry no specific information allowing to know that some periods are not encrypted. The information that content is encrypted or not would be known by either looking at the playlist/manifest or any other specific deployment source of data (such as EPG, a metadata server). 
+Content encrypted using key rotation may also have periods in the clear that are not encrypted. In this case, there is no [=Content Key=] for these periods. A CPIX document will carry no specific information allowing to know that some periods are not encrypted. The information that content is encrypted or not would be known by either looking at the playlist/manifest or any other specific deployment source of data (such as EPG, a metadata server).
 
 ## Hierarchical Keys ## {#keys-hierarchies}
 
