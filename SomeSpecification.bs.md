@@ -2,7 +2,7 @@
 Date: 2018-07-16
 Revision: 2.1
 
-Title: DASH-IF Implementation Guidelines: Content Protection Information Exchange Format (CPIX)
+Title: DASH-IF Implementation Guidelines: Extended Content Protection Information Exchange Format (CPIX)
 Status: LD
 Shortname: cpix
 URL: https://dashif.org/guidelines/
