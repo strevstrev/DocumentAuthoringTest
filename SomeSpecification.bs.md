@@ -104,7 +104,7 @@ See [[!DASH-IF-IOP]] section 2.3.
 : <dfn>Content Key Context</dfn>
 :: The portion of a media stream which is encrypted with a specific [=Content Key=].
 
-# Use Cases and Requirements # {#usecases}
+# Use Extended Cases and Requirements # {#usecases}
 
 [=Content Key=]s and [=DRM Signaling=], a.k.a. content protection information need to be created and exchanged between some system entities when preparing [=Content=]. The flows of information are of very different nature depending on where [=Content Key=]s are created and also depending on the type of [=Content=] that can be either On-Demand or Live.
 
