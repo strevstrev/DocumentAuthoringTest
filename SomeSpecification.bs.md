@@ -209,7 +209,7 @@ The primary data model carried by content protection information document is mad
 This use case is an extension of [[#usecase-delivery-to-one]] and is compatible with the use cases presented in the following sections.
 
 <figure>
-	<img src="BrokenLink/UseCase-EncryptedDeliveryToMany.png" />
+	<img src="Diagrams/UseCase-EncryptedDeliveryToMany.png" />
 	<figcaption>Secure Content Key delivery to Several Entities.</figcaption>
 </figure>
 
