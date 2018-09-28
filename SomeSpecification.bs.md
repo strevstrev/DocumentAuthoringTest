@@ -8,7 +8,7 @@ Shortname: cpix
 URL: https://dashif.org/guidelines/
 Issue Tracking: GitHub https://github.com/Dash-Industry-Forum/CPIX/issues
 Repository: https://github.com/Dash-Industry-Forum/CPIX GitHub
-Editor: DASH-IF IOP, Extended Content Protection and Security task force
+Editor: DASH-IF IOP, Extended Content Protection and Security task force; SEO squad
 
 Default Highlight: text
 Line Numbers: on
