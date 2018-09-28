@@ -64,7 +64,7 @@ This specification describes version 2.1 of the CPIX document format. Detailed c
 * Added new label attributes to usages rules for keys and corrected.
 * Added key hierarchy support (2 layers of keys).
 
-# Disclaimer # {#disclaimer}
+# Extended Disclaimer # {#disclaimer}
 
 This is a document made available by DASH-IF.  The technology embodied in this document may involve the use of intellectual property rights, including patents and patent applications owned or controlled by any of the authors or developers of this document. No patent license, either implied or express, is granted to you by this document. DASH-IF has made no search or investigation for such rights and DASH-IF disclaims any duty to do so. The rights and obligations which apply to DASH-IF documents, as such rights and obligations are set forth and defined in the DASH-IF Bylaws and IPR Policy including, but not limited to, patent and other intellectual property license rights and obligations. A copy of the DASH-IF Bylaws and IPR Policy can be obtained at http://dashif.org/.
 
