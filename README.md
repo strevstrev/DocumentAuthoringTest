@@ -5,6 +5,6 @@ Testbench for document authoring workflows
 
 Most recent output from the **master** branch:
 
-* [PDF document](documentauthoringtest.azurewebsites.net/master/SomeSpecification.pdf)
-* [HTML document](documentauthoringtest.azurewebsites.net/master/SomeSpecification.html)
-* [Download PDF + HTML as archive](documentauthoringtest.azurewebsites.net/master/SomeSpecification.zip)
+* [PDF document](https://documentauthoringtest.azurewebsites.net/master/SomeSpecification.pdf)
+* [HTML document](https://documentauthoringtest.azurewebsites.net/master/SomeSpecification.html)
+* [Download PDF + HTML as archive](https://documentauthoringtest.azurewebsites.net/master/SomeSpecification.zip)
