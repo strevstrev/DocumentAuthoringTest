@@ -1,3 +1,22 @@
+<pre class="metadata">
+Date: 2018-07-16
+Revision: 2.1
+
+Title: DASH-IF Implementation Guidelines: Content Protection Information Exchange Format (CPIX)
+Status: LD
+Shortname: cpix
+URL: https://dashif.org/guidelines/
+Issue Tracking: GitHub https://github.com/Dash-Industry-Forum/CPIX/issues
+Repository: https://github.com/Dash-Industry-Forum/CPIX GitHub
+Editor: DASH-IF IOP, Content Protection and Security task force
+
+Default Highlight: text
+Line Numbers: on
+Markup Shorthands: markdown yes
+Boilerplate: copyright off, abstract off
+Abstract: None
+</pre>
+
 <pre class="biblio">
 {
 	"DASH-IF-IOP": {
@@ -190,7 +209,7 @@ The primary data model carried by content protection information document is mad
 This use case is an extension of [[#usecase-delivery-to-one]] and is compatible with the use cases presented in the following sections.
 
 <figure>
-	<img src="Diagrams/UseCase-EncryptedDeliveryToMany.png" />
+	<img src="BrokenLink/UseCase-EncryptedDeliveryToMany.png" />
 	<figcaption>Secure Content Key delivery to Several Entities.</figcaption>
 </figure>
 
