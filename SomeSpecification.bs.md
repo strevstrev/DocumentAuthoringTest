@@ -1,22 +1,3 @@
-<pre class="ERRORmetadata">
-Date: 2018-07-16
-Revision: 2.1
-
-Title: DASH-IF Implementation Guidelines: Extended Content Protection Information Exchange Format (CPIX)
-Status: LD
-Shortname: cpix
-URL: https://dashif.org/guidelines/
-Issue Tracking: GitHub https://github.com/Dash-Industry-Forum/CPIX/issues
-Repository: https://github.com/Dash-Industry-Forum/CPIX GitHub
-Editor: DASH-IF IOP, Extended Content Protection and Security task force; SEO squad
-
-Default Highlight: text
-Line Numbers: on
-Markup Shorthands: markdown yes
-Boilerplate: copyright off, abstract off
-Abstract: None
-</pre>
-
 <pre class="biblio">
 {
 	"DASH-IF-IOP": {
