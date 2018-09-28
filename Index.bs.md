@@ -51,7 +51,7 @@ Abstract: None
 </pre>
 
 <pre boilerplate="logo">
-<a href="https://dashif.org/"><img src="DASH-IF.png" /></a>
+<a href="https://dashif.org/"><img src="Images/DASH-IF.png" /></a>
 </pre>
 
 # Scope # {#scope}
@@ -117,7 +117,7 @@ This informative section gives a general overview of the context in which conten
 This informative section takes DASH content as an example for providing more specific and clear understanding, but this can be generalized to other streaming formats, such as HLS.
 
 <figure>
-	<img src="Architecture.png" />
+	<img src="Images/Architecture.png" />
 	<figcaption>Logical roles that exchange DRM information and media.</figcaption>
 </figure>
 
@@ -154,7 +154,7 @@ One possible flow is that a Content Management System (CMS) creates a workflow e
 This flow is summarized in the figure below where arrows show the flow of information.
 
 <figure>
-	<img src="ExampleWorkflow-OnDemand.png" />
+	<img src="Images/ExampleWorkflow-OnDemand.png" />
 	<figcaption>Example of workflow for On-Demand Content preparation.</figcaption>
 </figure>
 
@@ -173,7 +173,7 @@ Metadata is exported to the Portal, enabling access to users. DRM systems receiv
 This flow is summarized in the figure below where arrows show the flow of information.
 
 <figure>
-	<img src="ExampleWorkflow-Live.png" />
+	<img src="Images/ExampleWorkflow-Live.png" />
 	<figcaption>Example of workflow for Live Content preparation.</figcaption>
 </figure>
 
@@ -198,7 +198,7 @@ This informative section gives details on how content protection information is 
 In the simplest use case, content protection information is made of a [=Content Key=]. One entity sends a [=Content Key=] to the other entity.
 
 <figure>
-	<img src="UseCase-ClearDeliveryToOne.png" />
+	<img src="Diagrams/UseCase-ClearDeliveryToOne.png" />
 	<figcaption>Content Key delivery to one entity.</figcaption>
 </figure>
 
@@ -209,7 +209,7 @@ The primary data model carried by content protection information document is mad
 This use case is an extension of [[#usecase-delivery-to-one]] and is compatible with the use cases presented in the following sections.
 
 <figure>
-	<img src="UseCase-EncryptedDeliveryToMany.png" />
+	<img src="Diagrams/UseCase-EncryptedDeliveryToMany.png" />
 	<figcaption>Secure Content Key delivery to Several Entities.</figcaption>
 </figure>
 
@@ -222,7 +222,7 @@ In situations with more than one recipient, the document allows each one to decr
 These use cases are extension of [[#usecase-delivery-to-one]] and present different rules that can be applied on a [=Content Key=] when delivered to an entity. Each usage rule defines a set of filters that are used to define a [=Content Key Context=]. If a rule match is found, the [=Content Key=] referenced by the usage rule is to be used to encrypt the [=Content Key Context=] defined by the rule.
 
 <figure>
-	<img src="UseCase-DeliveryWithUsageRules.png" />
+	<img src="Diagrams/UseCase-DeliveryWithUsageRules.png" />
 	<figcaption>Content Key Delivery with key usage rules.</figcaption>
 </figure>
 
@@ -255,7 +255,7 @@ This use case is an extension of [[#usecase-delivery-to-one]] and is compatible 
 This use case adds [=DRM Signaling=] information to each [=Content Key=]. The recipient may embed this signaling into the data streams it generates.
 
 <figure>
-	<img src="UseCase-DeliveryWithDrmSignaling.png" />
+	<img src="Diagrams/UseCase-DeliveryWithDrmSignaling.png" />
 	<figcaption>Content Key Delivery with DRM Signaling.</figcaption>
 </figure>
 
@@ -270,8 +270,8 @@ The recipient may use the part of signaling data that it understands and knows h
 This use case illustrates the usage of the content protection information document in a realistic workflow comprising multiple cooperating components that require a standardized data format for content protection information exchange.
 
 <figure>
-	<img src="UseCase-DeliveryWithIncrementalUpdate_Part1.png" />
-	<img src="UseCase-DeliveryWithIncrementalUpdate_Part2.png" />
+	<img src="Diagrams/UseCase-DeliveryWithIncrementalUpdate_Part1.png" />
+	<img src="Diagrams/UseCase-DeliveryWithIncrementalUpdate_Part2.png" />
 	<figcaption>Incremental Update and Extension of the Document.</figcaption>
 </figure>
 
@@ -308,12 +308,12 @@ The exchange of root keys is technically identical to the exchange of non-hierar
 There are many workflows that are possible, depending on which entities provide information in the CPIX document, and which entities consume that information. Two simple single-producer, single-consumer examples are illustrated below:
 
 <figure>
-	<img src="Workflow-EncryptorProducer.png" />
+	<img src="Images/Workflow-EncryptorProducer.png" />
 	<figcaption>Encryptor Producer.</figcaption>
 </figure>
 
 <figure>
-	<img src="Workflow-EncryptorConsumer.png" />
+	<img src="Images/Workflow-EncryptorConsumer.png" />
 	<figcaption>Encryptor Consumer.</figcaption>
 </figure>
 
@@ -337,7 +337,7 @@ This informative section shows a possible workflow for securing the exchange of 
 All these steps are summarized in the figure below.
 
 <figure>
-	<img src="Workflow-EncryptorProducer-Steps.png" />
+	<img src="Images/Workflow-EncryptorProducer-Steps.png" />
 	<figcaption>Encryptor Producer example steps.</figcaption>
 </figure>
 
@@ -352,7 +352,7 @@ This informative section shows a possible workflow for securing the exchange of 
 All these steps are summarized in the figure below.
 
 <figure>
-	<img src="Workflow-EncryptorConsumer-Steps.png" />
+	<img src="Images/Workflow-EncryptorConsumer-Steps.png" />
 	<figcaption>Encryptor Consumer example steps.</figcaption>
 </figure>
 
@@ -361,7 +361,7 @@ All these steps are summarized in the figure below.
 This informative section illustrates that it is possible to have more complex workflows than those previously illustrated. In one such example, for DASH content, a media packager might define the types of streams in the presentation, an Encryptor might generate the [=Content Key=]s, a DRM System might generate other [=DRM Signaling=], An Encryptor and an MPD Generator might be the consumers of the final document. In such workflows, the document gets passed from entity to entity in sequence, with each entity adding top-level elements, and recording the update.
 
 <figure>
-	<img src="Workflow-MultipleProducers.png" />
+	<img src="Images/Workflow-MultipleProducers.png" />
 	<figcaption>Multiple Producers example.</figcaption>
 </figure>
 
@@ -376,7 +376,7 @@ This informative section illustrates that it is possible to have more complex wo
 All these steps are summarized in the figure below.
 
 <figure>
-	<img src="Workflow-MultipleProducers-Steps.png" />
+	<img src="Images/Workflow-MultipleProducers-Steps.png" />
 	<figcaption>Multiple Producers example steps.</figcaption>
 </figure>
 
@@ -417,7 +417,7 @@ The [=Content Key=]s can be encrypted inside the XML file using the public keys 
 The figure below shows the first elements and a high-level view of the structure. Detailed description of the structure is given in the following sections.
 
 <figure>
-	<img src="Schema-TopLevel.png" />
+	<img src="Images/Schema-TopLevel.png" />
 	<figcaption>Content Protection Information Exchange Format high level view.</figcaption>
 </figure>
 
@@ -472,7 +472,7 @@ The root element that carries the Content Protection Information for a set of me
 
 </dl>
 
-<img src="Schema-Cpix.png" />
+<img src="Images/Schema-Cpix.png" />
 
 ### <dfn element>DeliveryDataList</dfn> Element ### {#schema-deliverydatalist}
 
@@ -490,7 +490,7 @@ The root element that carries the Content Protection Information for a set of me
 
 </dl>
 
-<img src="Schema-DeliveryDataList.png" />
+<img src="Images/Schema-DeliveryDataList.png" />
 
 ### <dfn element>DeliveryData</dfn> Element ### {#schema-deliverydata}
 
@@ -532,7 +532,7 @@ The root element that carries the Content Protection Information for a set of me
 
 </dl>
 
-<img src="Schema-DeliveryData.png" />
+<img src="Images/Schema-DeliveryData.png" />
 
 ### <dfn element>ContentKeyList</dfn> Element ### {#schema-contentkeylist}
 
@@ -549,7 +549,7 @@ The root element that carries the Content Protection Information for a set of me
 
 </dl>
 
-<img src="Schema-ContentKeyList.png" />
+<img src="Images/Schema-ContentKeyList.png" />
 
 ### <dfn element>ContentKey</dfn> Element ### {#schema-contentkey}
 
@@ -580,7 +580,7 @@ The key this element contains can be encrypted. If it is encrypted, it is encryp
 
 </dl>
 
-<img src="Schema-ContentKey.png" />
+<img src="Images/Schema-ContentKey.png" />
 
 ### <dfn element>DRMSystemList</dfn> Element ### {#schema-drmsystemlist}
 
@@ -597,7 +597,7 @@ The key this element contains can be encrypted. If it is encrypted, it is encryp
 
 </dl>
 
-<img src="Schema-DRMSystemList.png" />
+<img src="Images/Schema-DRMSystemList.png" />
 
 ### <dfn element>DRMSystem</dfn> Element ### {#schema-drmsystem}
 
@@ -655,7 +655,7 @@ The <{DRMSystem}> element contains all information on a DRM system that can be u
 
 Additional child elements not defined by DASH-IF may be present containing signaling data for other media formats. Such elements must appear after any elements defined here.
 
-<img src="Schema-DRMSystem.png" />
+<img src="Images/Schema-DRMSystem.png" />
 
 ### <dfn element>HLSSignalingData</dfn> Element ### {#schema-HLSsignalingdata}
 
@@ -668,7 +668,7 @@ The HLSSignalingData allows carrying base64 encoded text. It has an optional att
 
 </dl>
 
-<img src="Schema-HLSSignalingData.png" />
+<img src="Images/Schema-HLSSignalingData.png" />
 
 ### <dfn element>ContentKeyPeriodList</dfn> Element ### {#schema-contentkeyperiodlist}
 
@@ -685,7 +685,7 @@ The HLSSignalingData allows carrying base64 encoded text. It has an optional att
 
 </dl>
 
-<img src="Schema-ContentKeyPeriodList.png" />
+<img src="Images/Schema-ContentKeyPeriodList.png" />
 
 ### <dfn element>ContentKeyPeriod</dfn> Element ### {#schema-contentkeyperiod}
 
@@ -707,7 +707,7 @@ When <{ContentKeyPeriod/start}> and <{ContentKeyPeriod/end}> are present, the in
 
 </dl>
 
-<img src="Schema-ContentKeyPeriod.png" />
+<img src="Images/Schema-ContentKeyPeriod.png" />
 
 ### <dfn element>ContentKeyUsageRuleList</dfn> Element ### {#schema-contentkeyusagerulelist}
 
@@ -724,7 +724,7 @@ When <{ContentKeyPeriod/start}> and <{ContentKeyPeriod/end}> are present, the in
 
 </dl>
 
-<img src="Schema-ContentKeyUsageRuleList.png" />
+<img src="Images/Schema-ContentKeyUsageRuleList.png" />
 
 ### <dfn element>ContentKeyUsageRule</dfn> Element ### {#schema-contentkeyusagerule}
 
@@ -763,7 +763,7 @@ When <{ContentKeyPeriod/start}> and <{ContentKeyPeriod/end}> are present, the in
 
 Additional child elements not defined by DASH-IF may be present containing proprietary filters. Such elements must appear after any elements defined here.
 
-<img src="Schema-ContentKeyUsageRule.png" />
+<img src="Images/Schema-ContentKeyUsageRule.png" />
 
 ### <dfn element>Usage Rules Filters</dfn> ### {#schema-usagerulefilter}
 
@@ -790,7 +790,7 @@ There can be many different sources for defining usage rules, for example, they 
 
 </dl>
 
-<img src="Schema-KeyPeriodFilter.png" />
+<img src="Images/Schema-KeyPeriodFilter.png" />
 
 #### <dfn element>LabelFilter</dfn> Element #### {#schema-labelfilter}
 
@@ -801,7 +801,7 @@ There can be many different sources for defining usage rules, for example, they 
 
 </dl>
 
-<img src="Schema-LabelFilter.png" />
+<img src="Images/Schema-LabelFilter.png" />
 
 The <{LabelFilter/label}> attribute is meant for triggering a particular <{ContentKeyUsageRule}> by using pre-agreed upon label strings. Its value may or may not correspond to media track types. One example is a label such as UHD that can be used to match the corresponding <{ContentKeyUsageRule}> element when used as an input or selector for a content encryptor, media packager, MPD generator or license service to select a specific [=Content Key=], populate the ContentProtection element, or include the corresponding key in a content license. Another example is if there is a previous agreement defined outside of a CPIX document that "blue tracks" are encrypted with the [=Content Key=] 1234 and "green tracks" are encrypted with the [=Content Key=] 5678. The labels can be used in this case to identify the suitable tracks (without expressing the specifics of the agreement itself).
 
@@ -839,7 +839,7 @@ When <{VideoFilter/minPixels}> and <{VideoFilter/maxPixels}> are present, the in
 
 When <{VideoFilter/minFps}> and <{VideoFilter/maxFps}> are present, the interval is defined by (<{VideoFilter/minFps}>, <{VideoFilter/maxFps}>], meaning that the filter is not used for content with nominal FPS equal to <{VideoFilter/minFps}> but is used for content with nominal FPS equal to <{VideoFilter/maxFps}>.
 
-<img src="Schema-VideoFilter.png" />
+<img src="Images/Schema-VideoFilter.png" />
 
 #### <dfn element>AudioFilter</dfn> Element #### {#schema-audiofilter}
 
@@ -857,7 +857,7 @@ If present, even without any attributes, the filter will only match audio sample
 
 When <{AudioFilter/minChannels}> and <{AudioFilter/maxChannels}> are present, the interval is defined by [<{AudioFilter/minChannels}>, <{AudioFilter/maxChannels}>], meaning that the filter is used for content with audio samples that have <{AudioFilter/minChannels}> audio channels and is used for content with audio samples that have <{AudioFilter/maxChannels}> audio channels.
 
-<img src="Schema-AudioFilter.png" />
+<img src="Images/Schema-AudioFilter.png" />
 
 #### <dfn element>BitrateFilter</dfn> Element #### {#schema-bitratefilter}
 
@@ -875,7 +875,7 @@ When <{AudioFilter/minChannels}> and <{AudioFilter/maxChannels}> are present, th
 
 When <{BitrateFilter/minBitrate}> and <{BitrateFilter/maxBitrate}> are present, the interval is defined by [<{BitrateFilter/minBitrate}>, <{BitrateFilter/maxBitrate}>], meaning that the filter is used for content with bitrate of <{BitrateFilter/minBitrate}> and is used for content with bitrate of <{BitrateFilter/maxBitrate}>.
 
-<img src="Schema-BitrateFilter.png" />
+<img src="Images/Schema-BitrateFilter.png" />
 
 ### <dfn element>UpdateHistoryItemList</dfn> Element ### {#schema-updatehistoryitemlist}
 
@@ -889,7 +889,7 @@ When <{BitrateFilter/minBitrate}> and <{BitrateFilter/maxBitrate}> are present, 
 
 </dl>
 
-<img src="Schema-UpdateHistoryItemList.png" />
+<img src="Images/Schema-UpdateHistoryItemList.png" />
 
 ### <dfn element>UpdateHistoryItem</dfn> Element ### {#schema-updatehistoryitem}
 
@@ -912,7 +912,7 @@ When <{BitrateFilter/minBitrate}> and <{BitrateFilter/maxBitrate}> are present, 
 
 </dl>
 
-<img src="Schema-UpdateHistoryItem.png" />
+<img src="Images/Schema-UpdateHistoryItem.png" />
 
 # Key Management # {#keys}
 
@@ -941,7 +941,7 @@ Each <{DeliveryData}> element identifies a Delivery Key, which is a public key f
 The below figure gives the schema of encryption of the different keys when there are several <{DeliveryData}> elements and several <{ContentKey}> Elements. The [=Document Key=] allows reducing the numbers of <{ContentKey}> Elements as the [=Content Key=] they contain are all encrypted by the same [=Document Key=].
 
 <figure>
-	<img src="DocumentKeyStructure.png" />
+	<img src="Diagrams/DocumentKeyStructure.png" />
 	<figcaption>Encryption relationships within the CPIX document. Blue indicates encrypted data.</figcaption>
 </figure>
 
