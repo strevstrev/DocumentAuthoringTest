@@ -223,7 +223,7 @@ These use cases are extension of [[#usecase-delivery-to-one]] and present differ
 
 <figure>
 	<img src="Diagrams/UseCase-DeliveryWithUsageRules.png" />
-	<figcaption>Content Key Delivery with key usage rules.</figcaption>
+	<figcaption>Improved Content Key Delivery with key usage rules.</figcaption>
 </figure>
 
 #### Label Filter #### {#usecase-usagerules-labelfilter}
