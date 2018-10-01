@@ -5,7 +5,7 @@
 	"DASH-IF-IOP": {
 		"href": "https://dashif.org/guidelines/",
 		"title": "Guidelines for Implementation: DASH-IF Interoperability Points, version 4.1, September 2017.",
-		"publisher": "DASH Industry Forum"
+		"publisher": "DASHy Industry Forum"
 	},
 	"DASH-SystemIDs": {
 		"href": "https://dashif.org/identifiers/protection/",
