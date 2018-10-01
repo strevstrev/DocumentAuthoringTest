@@ -1,4 +1,21 @@
+<pre class="metadata">
+Date: 2018-07-16
+Revision: 2.1
 
+Title: DASH-IF Implementation Guidelines: Content Protection Information Exchange Format (CPIX)
+Status: LD
+Shortname: cpix
+URL: https://dashif.org/guidelines/
+Issue Tracking: GitHub https://github.com/Dash-Industry-Forum/CPIX/issues
+Repository: https://github.com/Dash-Industry-Forum/CPIX GitHub
+Editor: DASH-IF IOP, Content Protection and Security task force
+
+Default Highlight: text
+Line Numbers: on
+Markup Shorthands: markdown yes
+Boilerplate: copyright off, abstract off
+Abstract: None
+</pre>
 
 <pre class="biblio">
 {
@@ -100,7 +117,7 @@ This informative section gives a general overview of the context in which conten
 This informative section takes DASH content as an example for providing more specific and clear understanding, but this can be generalized to other streaming formats, such as HLS.
 
 <figure>
-	<img src="Images/Architecture.png" />
+	<img src="BrokenLink/Images/Architecture.png" />
 	<figcaption>Logical roles that exchange DRM information and media.</figcaption>
 </figure>
 
