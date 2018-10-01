@@ -117,7 +117,7 @@ This informative section gives a general overview of the context in which conten
 This informative section takes DASH content as an example for providing more specific and clear understanding, but this can be generalized to other streaming formats, such as HLS.
 
 <figure>
-	<img src="BrokenLink/Images/Architecture.png" />
+	<img src="Images/Architecture.png" />
 	<figcaption>Logical roles that exchange DRM information and media.</figcaption>
 </figure>
 
